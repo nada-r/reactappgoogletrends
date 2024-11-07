@@ -3,7 +3,7 @@ import googleTrends from 'google-trends-api';
 async function fetchDailyTrends() {
   try {
     const results = await googleTrends.dailyTrends({
-      geo: '', // Change 'US' to your preferred location code (e.g., 'FR' for France)
+      geo: 'US', // Change 'US' to your preferred location code (e.g., 'FR' for France)
     });
 
     const data = JSON.parse(results);
