@@ -13,5 +13,5 @@ npm install
 
 Run the application:
 ```
-npx ts-node trends.ts
+npx ts-node trends.ts 
 ```
