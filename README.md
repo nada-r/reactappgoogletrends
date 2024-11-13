@@ -15,3 +15,6 @@ Run the application:
 ```
 npx ts-node trends.ts 
 ```
+
+Daily trends: output trends of the day
+granular: output interest per minute for a topic in the last 24 h
